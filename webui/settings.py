@@ -80,7 +80,7 @@ DATABASES = {
         # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         'ENGINE': 'djongo',
         'NAME': 'django_mongodb_docker',
-        'ENFORCE_SCHEMA': True,
+        'ENFORCE_SCHEMA': False,
         'CLIENT': {
             'host': 'mongodb',
             'port': 27017,
