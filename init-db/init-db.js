@@ -1,0 +1,5 @@
+db.contacts.insertMany([
+    {firstName:"James",lastName:"Butt",companyName:"Benton, John B Jr",address:"6649 N Blue Gum St",city:"New Orleans",county:"Orleans",state:"LA",zip:"70116",phone1:"504-621-8927",phone2:"504-845-1427",email:"jbutt@gmail.com",website:"http://www.bentonjohnbjr.com"},
+    {firstName:"Josephine",lastName:"Darakjy",companyName:"Chanay, Jeffrey A Esq",address:"4 B Blue Ridge Blvd",city:"Brighton",county:"Livingston",state:"MI",zip:"48116",phone1:"810-292-9388",phone2:"810-374-9840",email:"josephine_darakjy@darakjy.org",website:"http://www.chanayjeffreyaesq.com"},
+    {firstName:"Art",lastName:"Venere",companyName:"Chemel, James L Cpa",address:"8 W Cerritos Ave #54",city:"Bridgeport",county:"Gloucester",state:"NJ",zip:"8014",phone1:"856-636-8749",phone2:"856-264-4130",email:"art@venere.org",website:"http://www.chemeljameslcpa.com"}
+]);
